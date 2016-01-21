@@ -14,6 +14,10 @@
 		74B31E791C3CF00700F4E264 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74B31E771C3CF00700F4E264 /* LaunchScreen.storyboard */; };
 		74B31E841C3CF00700F4E264 /* PlayerDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B31E831C3CF00700F4E264 /* PlayerDemoTests.swift */; };
 		74B31E8F1C3CF00700F4E264 /* PlayerDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B31E8E1C3CF00700F4E264 /* PlayerDemoUITests.swift */; };
+		74B31E9D1C3CFA5F00F4E264 /* ChooseFileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B31E9C1C3CFA5F00F4E264 /* ChooseFileTableViewController.swift */; };
+		74B31EA81C3D11DF00F4E264 /* movie.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 74B31EA71C3D11DF00F4E264 /* movie.mp4 */; };
+		74B31EAC1C3E0AC800F4E264 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74B31EAB1C3E0AC800F4E264 /* MediaPlayer.framework */; };
+		74B31EAE1C3E17DD00F4E264 /* 5677c4af25990.mov in Resources */ = {isa = PBXBuildFile; fileRef = 74B31EAD1C3E17DD00F4E264 /* 5677c4af25990.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		74B31E8A1C3CF00700F4E264 /* PlayerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74B31E8E1C3CF00700F4E264 /* PlayerDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDemoUITests.swift; sourceTree = "<group>"; };
 		74B31E901C3CF00700F4E264 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74B31E9C1C3CFA5F00F4E264 /* ChooseFileTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseFileTableViewController.swift; sourceTree = "<group>"; };
+		74B31EA71C3D11DF00F4E264 /* movie.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = movie.mp4; sourceTree = "<group>"; };
+		74B31EAB1C3E0AC800F4E264 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		74B31EAD1C3E17DD00F4E264 /* 5677c4af25990.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = 5677c4af25990.mov; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74B31EAC1C3E0AC800F4E264 /* MediaPlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +86,7 @@
 		74B31E621C3CF00700F4E264 = {
 			isa = PBXGroup;
 			children = (
+				74B31EAB1C3E0AC800F4E264 /* MediaPlayer.framework */,
 				74B31E6D1C3CF00700F4E264 /* PlayerDemo */,
 				74B31E821C3CF00700F4E264 /* PlayerDemoTests */,
 				74B31E8D1C3CF00700F4E264 /* PlayerDemoUITests */,
@@ -97,8 +107,11 @@
 		74B31E6D1C3CF00700F4E264 /* PlayerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				74B31EAD1C3E17DD00F4E264 /* 5677c4af25990.mov */,
+				74B31EA71C3D11DF00F4E264 /* movie.mp4 */,
 				74B31E6E1C3CF00700F4E264 /* AppDelegate.swift */,
 				74B31E701C3CF00700F4E264 /* ViewController.swift */,
+				74B31E9C1C3CFA5F00F4E264 /* ChooseFileTableViewController.swift */,
 				74B31E721C3CF00700F4E264 /* Main.storyboard */,
 				74B31E751C3CF00700F4E264 /* Assets.xcassets */,
 				74B31E771C3CF00700F4E264 /* LaunchScreen.storyboard */,
@@ -230,7 +243,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				74B31E791C3CF00700F4E264 /* LaunchScreen.storyboard in Resources */,
+				74B31EA81C3D11DF00F4E264 /* movie.mp4 in Resources */,
 				74B31E761C3CF00700F4E264 /* Assets.xcassets in Resources */,
+				74B31EAE1C3E17DD00F4E264 /* 5677c4af25990.mov in Resources */,
 				74B31E741C3CF00700F4E264 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74B31E9D1C3CFA5F00F4E264 /* ChooseFileTableViewController.swift in Sources */,
 				74B31E711C3CF00700F4E264 /* ViewController.swift in Sources */,
 				74B31E6F1C3CF00700F4E264 /* AppDelegate.swift in Sources */,
 			);
@@ -484,6 +500,7 @@
 				74B31E951C3CF00700F4E264 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74B31E961C3CF00700F4E264 /* Build configuration list for PBXNativeTarget "PlayerDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +509,7 @@
 				74B31E981C3CF00700F4E264 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74B31E991C3CF00700F4E264 /* Build configuration list for PBXNativeTarget "PlayerDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +518,7 @@
 				74B31E9B1C3CF00700F4E264 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
